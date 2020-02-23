@@ -25,7 +25,7 @@
 # * Justin Lambert <mailto:jlambert@letsevenup.com>
 #
 class artifactory(
-  $ensure             = 'latest',
+  $ensure             = '6.17.0',
   $package_name       = 'artifactory',
   $service_name       = 'artifactory',
   $package_provider   = undef,
